@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "IconFinderGrabber",
+    "description": "Grab icon links from iconfinder.com",
+    "version": "1.0",
+    "icons": {
+        "128": "eye_black-128.png"
+    },
+    "background":{
+        "scripts":["background.js"],
+        "persistent":false
+    },
+    "page_action":{
+        "default_popup":"popup.html"
+    },
+    "content_scripts": [{
+        "matches": ["*://*.iconfinder.com/*"],
+        "js": ["content.js"]
+      }],
+    "permissions": [
+        "downloads",
+        "activeTab",
+        "declarativeContent"
+    ]
+}

@@ -1,2 +1,9 @@
-# iconfinder-crx
-The chrome crx extention for iconfinder.com , to print all the icon links from icon set in the chrome debug console.
+# IconFinderGrabber
+
+This is a chrome extention for user to grab icon links from iconfinder.com and provide batch download.
+
+## key words
+
+- grab icon link from iconfinder.com
+- multi / batch icon download
+
