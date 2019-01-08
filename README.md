@@ -7,3 +7,7 @@ This is a chrome extention for user to grab icon links from iconfinder.com and p
 - grab icon link from iconfinder.com
 - multi / batch icon download
 
+## screen shot
+
+![](./screenshot/1.jpg)
+![](./screenshot/2.jpg)

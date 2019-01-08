@@ -4,6 +4,8 @@
     "description": "Grab icon links from iconfinder.com",
     "version": "1.0",
     "icons": {
+        "16": "eye_black-16.png",
+        "48": "eye_black-48.png",
         "128": "eye_black-128.png"
     },
     "background":{
